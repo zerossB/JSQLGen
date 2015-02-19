@@ -23,12 +23,11 @@ Só baixar e executar.
 
 ### Estruturas de Pastas
 
-Dillinger is currently extended with the following plugins
+* build - Contém Todos os .class do Projeto
+* dist - Contém os Binarios do Projeto
+* nbproject - Contém as configurações do Projeto Netbeans
+* src - Contém as Classes do Projeto
 
-* Dropbox
-* Github
-* Google Drive
-* OneDrive
 
 ### Erros
 
