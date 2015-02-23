@@ -1,8 +1,8 @@
 # JSQLGen 5.4
 
-JSQLGen é uma ferramenta CASE(Computer-Aided Software Engineering) que auxilia em atividades de engenharia de software, e que tem como objetivo auxiliar o desenvolvedor de sistemas nas etapas de modelagem e desenvolvimento do software, aumentando a produtividade.
+[JSQLGen] é uma ferramenta CASE(Computer-Aided Software Engineering) que auxilia em atividades de engenharia de software, e que tem como objetivo auxiliar o desenvolvedor de sistemas nas etapas de modelagem e desenvolvimento do software, aumentando a produtividade.
 
-O Projeto JSQLGen a partir da versão 4.3 será mantido pelo Projeto [SoLUC - Software Livre Unesp CTA].
+O Projeto [JSQLGen] a partir da versão 4.3 será mantido pelo Projeto [SoLUC - Software Livre Unesp CTA].
 
 ####Bancos Suportados:
   - HSQLDB
@@ -63,6 +63,7 @@ License
 **Free Software, Hell Yeah!**
 
 [SoLUC - Software Livre Unesp CTA]:https://sites.google.com/site/projetosoluc/
+[JSQLGen]:http://zerossb.github.io/JSQLGen/site/
 [1]:https://sites.google.com/site/jsqlgen/_/rsrc/1385490079396/home/JSQLGen5_4_1-2013-11-26.png?raw=true
 [info.cta.unesp@gmail.com]:mailto:info.cta.unesp@gmail.com.
 [Apache 2.0]:http://www.apache.org/licenses/LICENSE-2.0
