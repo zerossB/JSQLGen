@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>JSQLGen - Projeto Soluc</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="js/libs/twitter-bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="js/libs/twitter-bootstrap/css/responsive.css" />
+        <link rel="stylesheet" href="js/libs/bootstrap-material-design/css/material.css" />
+        <link rel="stylesheet" href="js/libs/bootstrap-material-design/css/material-wfont.css" />
+        <link rel="stylesheet" href="js/libs/bootstrap-material-design/css/ripples.css" />
+
+        <link rel="icon" href="images/jsqlgen_logo.png"/>
+
+        <link rel="stylesheet" href="css/root.css"/>
+    </head>
+    <body>
+        <div class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="javascript:void(0)">JSQLGen</a>
+            </div>
+            <div class="navbar-collapse collapse navbar-inverse-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="javascript:void(0)" id="sob">Sobre</a></li>
+                    <li><a href="javascript:void(0)" id="exe">Exemplos</a></li>
+                    <li><a href="javascript:void(0)" id="req">Requisitos</a></li>
+                    <li><a href="javascript:void(0)" id="con">Contribuintes</a></li>
+                    <li class="active"><a href="https://github.com/zerossB/JSQLGen">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row-fluid" style="margin-top: -20px">
+            <div class="void"></div>
+            <div class="container">
+                <div class="jumbotron text-center">
+                    <h1>JSQLGen</h1>
+                    <p class="h2">JSQLGen é uma ferramenta CASE(Computer-Aided Software Engineering) que auxilia em atividades de engenharia de software</p>
+                    <a href="https://github.com/zerossB/JSQLGen/blob/master/dist/JSQLGen5.jar?raw=true" class="btn btn-lg btn-primary">Download</a>
+                    <p class="h6">Version: 5.4.1</p>
+                </div>
+            </div>
+            <div class="void"></div>
+        </div>
+
+        <section class="row-fluid" style="margin-top: -20px" id="sobre">
+            <div class="void"></div>
+            <div class="container-fluid">
+                <div class="span6 well">
+                    <h2>Sobre:</h2>
+                    <p>JSQLGen é uma ferramenta CASE(Computer-Aided Software Engineering) que auxilia em atividades de engenharia de software, e que tem como objetivo auxiliar o desenvolvedor de sistemas nas etapas de modelagem e desenvolvimento do software, aumentando a produtividade.</p>
+                    <p>O Projeto JSQLGen a partir da versão 4.3 será mantido pelo <a href="https://sites.google.com/site/projetosoluc/">Projeto SoLUC - Software Livre Unesp CTA</a>.</p>
+                </div>
+                <div class="span6 well">
+                    <h2>Bancos Suportados</h2>
+                    <ul>
+                        <li>HSQLDB</li>
+                        <li>Apache Derby (Standalone/Network)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="void"></div>
+        </section>
+
+        <section class="row-fluid" style="margin-top: -20px;" id="exemplos">
+            <div class="void"></div>
+            <div class="container well">
+                <div class="span6">
+                    <img src="https://sites.google.com/site/jsqlgen/_/rsrc/1385490079396/home/JSQLGen5_4_1-2013-11-26.png"
+                         alt="Exemplo de Uso" class="img-responsive img-rounded">
+                </div>
+                <div class="span6">
+                    <h2>Exemplo de Uso:</h2>
+                    <p>Ao lado temos um exemplo de programa de compra e venda de produtos</p>
+                    <p>Um exemplo bem simples de como pode ser usado o JSQLGen</p>
+                </div>
+            </div>
+            <div class="void"></div>
+        </section>
+
+        <section class="row-fluid" style="margin-top: -20px" id="requisitos">
+            <div class="void"></div>
+            <div class="container well">
+                <div class="span4">
+                    <h2>Requisitos:</h2>
+                    <ul>
+                        <li><p>Java 1.7 ou Superior</p></li>
+                    </ul>
+                </div>
+                <div class="span4">
+                    <h2>Estrutura das Pastas:</h2>
+                    <ul>
+                        <li>build - Contém Todos os .class do Projeto</li>
+                        <li>dist - Contém os Binarios do Projeto</li>
+                        <li>nbproject - Contém as configurações do Projeto Netbeans</li>
+                        <li>src - Contém as Classes do Projeto</li>
+                    </ul>
+                </div>
+                <div class="span4">
+                    <h2>Erros</h2>
+                    <p>Você quer ajudar a Melhorar o JSQLGen ? Achou algum BUG? Envie um Email para <a href="mailto:info.cta.unesp@gmail.com">info.cta.unesp@gmail.com</a> com um PrintScreen e como ocorreu o erro.</p>
+                </div>
+            </div>
+            <div class="void"></div>
+        </section>
+
+        <section class="row-fluid" style="margin-top: -20px" id="contribuintes">
+            <div class="void"></div>
+            <div class="container well">
+                <div class="span6">
+                    <h3>Marcos Morise:</h3>
+                    <ul>
+                        <li>Criação, análise e desenvolvimento, versão 5 : 11/11/2011</li>
+                        <li>Correções diversas na interface e no código gerado, versão 5.1 : 25/11/2012</li>
+                        <li>Correções diversas na interface e no código gerado, versão 5.3 : 26/10/2013</li>
+                        <li>Correções diversas na interface e no código gerado, versão 5.3.1 : 30/10/2013</li>
+                        <li>Correções diversas na interface e no código gerado, versão 5.4 : 17/11/2013</li>
+                        <li>Recurso de Copiar e Colar classes</li>
+                        <li>Edição de projetos em abas</li>
+                    </ul>
+                    <hr>
+                    <h3>Douglas Jacob</h3>
+                    <ul>
+                        <li>Correção do "null" String em atributos IDENTITY convertidos em String, versão 5.2 : 10/03/2012</li>
+                    </ul>
+                </div>
+                <div class="span6">
+                    <h3>Gustavo Cesário</h3>
+                    <ul>
+                        <li>Implementação de suporte à geração de aplicativos utilizando o banco de dados HSQLDB, versão 5.2 : 10/03/2012</li>
+                    </ul>
+                    <hr>
+                    <h3>Michael Vasques</h3>
+                    <ul>
+                        <li>Elaboração do manual e criação da ajuda do sistema, versão 5 : 14/04/2012</li>
+                    </ul>
+                    <hr>
+                    <h3>Guilherme Haynes Howe</h3>
+                    <ul>
+                        <li>Hospedagem do Software no GitHub</li>
+                    </ul>
+                </div>
+            </div> 
+            <div class="void"></div>
+        </section>
+
+        <script src="js/libs/jquery/jquery.js"></script>
+        <script src="js/libs/twitter-bootstrap/js/bootstrap.js"></script>
+        <script src="js/libs/twitter-bootstrap/js/npm.js"></script>
+        <script src="js/libs/bootstrap-material-design/js/material.js"></script>
+        <script src="js/libs/bootstrap-material-design/js/ripples.js"></script>
+        <script src="js/root.js"></script>
+    </body>
+</html>
