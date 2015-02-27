@@ -32,7 +32,7 @@ Só baixar e executar.
 ### Erros
 
 Você quer ajudar a  Melhorar o JSQLGen ? Achou algum BUG?
-Envie um Email para [info.cta.unesp@gmail.com] com um PrintScreen e como ocorreu o erro.
+Faça as alterações e mande para nós !!
 
 ### Créditos da Versão 5
 Marcos Morise 
@@ -65,5 +65,4 @@ License
 [SoLUC - Software Livre Unesp CTA]:https://sites.google.com/site/projetosoluc/
 [JSQLGen]:http://zerossb.github.io/JSQLGen/site/
 [1]:https://sites.google.com/site/jsqlgen/_/rsrc/1385490079396/home/JSQLGen5_4_1-2013-11-26.png?raw=true
-[info.cta.unesp@gmail.com]:mailto:info.cta.unesp@gmail.com.
 [GNU - GPL]:http://www.gnu.org/copyleft/gpl.html
